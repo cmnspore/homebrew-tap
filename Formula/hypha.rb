@@ -1,24 +1,24 @@
 class Hypha < Formula
   desc "The reference CMN client CLI — release spores, query synapses, resolve bonds, and manage your local mycelium."
   homepage "https://github.com/cmnspore/cmn-hypha"
-  version "0.4.1"
+  version "0.5.0"
   license "MIT"
 
   on_macos do
     on_arm do
-      url "https://github.com/cmnspore/cmn-hypha/releases/download/v0.4.1/hypha-v0.4.1-aarch64-apple-darwin.tar.gz"
-      sha256 "6cfb41001c315e2b8da0a37e66014b2b9eddd4c7d4b2d534007496ace8afc6b2"
+      url "https://github.com/cmnspore/cmn-hypha/releases/download/v0.5.0/hypha-v0.5.0-aarch64-apple-darwin.tar.gz"
+      sha256 "4827c30d14da8d6226ffcf84c21038519b2e34aef3d1c9a6574463d5c7d395bf"
     end
     on_intel do
-      url "https://github.com/cmnspore/cmn-hypha/releases/download/v0.4.1/hypha-v0.4.1-x86_64-apple-darwin.tar.gz"
-      sha256 "460b05ac72c11a375e13f4cd3d37e828a2b590c9e1f2459749087c045ed5d972"
+      url "https://github.com/cmnspore/cmn-hypha/releases/download/v0.5.0/hypha-v0.5.0-x86_64-apple-darwin.tar.gz"
+      sha256 "fdbf47d6b34c50e6eb61d0eb4cf05db888c2f838cab1db9821d42e3a73b5a833"
     end
   end
 
   on_linux do
     on_intel do
-      url "https://github.com/cmnspore/cmn-hypha/releases/download/v0.4.1/hypha-v0.4.1-x86_64-unknown-linux-gnu.tar.gz"
-      sha256 "3040bc82b032a7555a571c50eed031bea13c49a1e8a17f2a541f2ebe20841f12"
+      url "https://github.com/cmnspore/cmn-hypha/releases/download/v0.5.0/hypha-v0.5.0-x86_64-unknown-linux-gnu.tar.gz"
+      sha256 "fb4c5c3ee899ea6e8a2c23abc932f8fd1e6cad9c6e16d7803b1c471b4e8e9d75"
     end
   end
 
