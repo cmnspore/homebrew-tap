@@ -1,7 +1,6 @@
 class Synapse < Formula
   desc "The reference CMN indexer — ingests signed manifests, indexes spores and myceliums, serves discovery queries, and syncs across instances via Nostr."
   homepage "https://github.com/cmnspore/cmn-synapse"
-  version "0.3.0"
   license "MIT"
 
   on_macos do
